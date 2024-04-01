@@ -60,7 +60,7 @@
                 <input type="text" id="ciudad" name="ciudad">
             </p>
             <p>
-                <label for="cp">DNI</label>
+                <label for="cp">Código Postal</label>
                 <input type="tel" id="cp" name="cp">
             </p>
             <p>
@@ -89,7 +89,53 @@
                 <input type="radio" id="Tarjeta3" name="tarjeta" value="maestro" />
                 <label for="Tarjeta3">Maestro</label>
             </p>
+            <p>
+                <p>
+                    <label for="nrotarj">Numero tarjeta de crédito</label>
+                    <input type="tel" id="nrotarj" name="nrotarj">
+                </p>
+            </p>
+            <p>Fecha de caducidad
+                <select name="mes" id="mes">
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option>
+                    <option value="5">05</option>
+                    <option value="6">06</option>
+                    <option value="7">07</option>
+                    <option value="8">08</option>
+                    <option value="9">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+                <select name="anio" id="anio">
+                    <option value="1">2024</option>
+                    <option value="2">2025</option>
+                    <option value="3">2026</option>
+                    <option value="4">2027</option>
+                    <option value="5">2028</option>
+                    <option value="6">2029</option>
+                    <option value="7">2030</option>
+                    <option value="8">2031</option>
+                    <option value="9">2032</option>
+                    <option value="10">2033</option>
+                </select>
+            </p>
+            <p>            
+                <label for="titular">Titular tarjeta de crédito</label>
+                <input type="text" id="titular" name="titular">
+            </p>
+            <p>
+                <label for="codigo">Código Seguridad Tarjeta de crédito</label>
+                <input type="tel" id="codigo" name="codigo">
+            </p>
         </fieldset>
+        <p>
+            <input type="submit" />
+        </p>
+        
     </form>
 </body>
 </html>
