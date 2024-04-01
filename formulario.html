@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de reserva</title>
 </head>
+
 <body>
     <form>
         <fieldset>
@@ -26,33 +27,9 @@
                 <input type="file" name="imgdni" id="imgdni" accept="image/*" multiple >
 
             </p>
-
-
-            <p>Provincia 
-                <select id="provincia"> 
-                    <option value="1">BUENOS AIRES</option>
-                    <option value="2">CATAMARCA</option>
-                    <option value="5">CHACO</option>
-                    <option value="6">CHUBUT</option>
-                    <option value="50">CIUDAD AUTONOMA DE Bs As</option>
-                    <option value="3">CORDOBA</option>
-                    <option value="4">CORRIENTES</option>
-                    <option value="7">ENTRE RIOS</option>
-                    <option value="8">FORMOSA</option>
-                    <option value="9">JUJUY</option>
-                    <option value="10">LA PAMPA</option>
-                    <option value="11">LA RIOJA</option>
-                    <option value="12">MENDOZA</option>
-                    <option value="13">MISIONES</option>
-                    <option value="14">NEUQUEN</option>
-                    <option value="15">RIO NEGRO</option>
-                    <option value="16">SALTA</option>
-                    <option value="17">SAN LUIS</option>
-                    <option value="19">SANTA CRUZ</option>
-                    <option value="20">SANTA FE</option>
-                    <option value="21">SANTIAGO DEL ESTERO</option>
-                    <option value="22">TIERRA DEL FUEGO</option>
-                </select>
+            <p>
+                <label for="provincia">Provincia</label>
+                <input type="text" id="provincia" name="provincia">
             </p>
             <p>
                 <label for="ciudad">Ciudad</label>
@@ -129,8 +106,7 @@
         </fieldset>
         <p>
             <input type="submit">
-        </p>
-        
+        </p>    
     </form>
 </body>
 </html>
