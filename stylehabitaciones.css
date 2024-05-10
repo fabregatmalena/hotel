@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e8e8e8;
+}
+nav {
+    background-color: #d2b68a;
+    margin: 0;
+    padding: 10px 0;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: #222D52;
+    text-decoration: none;
+    padding: 20px 50px;
+}
+nav ul li a:hover {
+    background-color: #EEE5D9;
+}
+header {
+    background-color: #222D52;
+    color: #fdffff;
+    padding: 40px 0;
+    text-align: center;
+}
+#habitaciones {
+    background-color: #EEE5D9;
+    color: #222D52;
+    padding: 10px;
+    text-align: left;
+}
+main {
+    max-width: 1050px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fdffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+    background-color: #222D52;
+    color: #fdffff;
+    padding: 10px 0;
+    text-align: center;
+    h2{
+        font-size: 16px;
+    }
+    p{
+        font-size: 10px;
+    }
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+  
+h2 {
+    font-size: 24px;
+}
+  
+p {
+    font-size: 16px;
+}
+main {
+    display: flex;        /* Establece el contenedor como Flex */
+    justify-content: space-around; /* Distribuye el espacio alrededor de los elementos internos */
+    align-items: flex-start; /* Alinea los elementos al comienzo del contenedor flex */
+    flex-wrap: wrap;      /* Permite que los elementos se envuelvan en múltiples líneas si no hay espacio suficiente */
+}
+
+.habitacion {
+    width: 300px;         /* Ancho fijo para cada habitación */
+    margin: 10px;         /* Espacio alrededor de cada habitación */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra opcional para un mejor diseño */
+    text-align: center;
+    padding: 15px;
+}
+
+.habitacion img {
+    width: 100%;          /* Hace que la imagen llene el ancho del contenedor .habitacion */
+    height: auto;         /* Mantiene la proporción de la imagen */
+}
+.habitacion img:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,0.5)
+}  
