@@ -1,0 +1,59 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.reserva {
+    text-align: center;
+    height: 60px;
+    width: 400px;
+    border: 15px rgb(1, 29, 1);
+    background-color: bisque;
+    padding: 5px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+}
+
+#container-fluid {
+  height: 500px;
+  max-width: 500px;
+}
+
+section .description {
+  margin: 120px
+  
+}
+
+.services {
+  display: grid;
+  margin: 50px;
+  grid-template-columns: 33% 34% 33%;
+  grid-template-rows: 120px 120px 120px;
+  gap: 3px;
+  
+}
+
+.pie-pagina .grupo2 {
+  background-color: #40679E;
+  color: #fff;
+  padding: 15px 10px;
+  text-align: center;
+}
+
