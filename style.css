@@ -1,0 +1,73 @@
+body {
+    background-color: #F2ECBE;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #2D9596;
+    color: #F1FADA;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.title{
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+/* estilos para el menu de navegacion */
+nav {
+    background-color: #9AD0C2;
+    color: #F2ECBE;
+    height: 70px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+
+/*CARRUSEL*/
+.carousel{
+    margin: 50px;
+ }
+
+
+
+/*seccion habitaciones*/
+ #habitaciones {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+}
+
+.informacion {
+    background-color: rgba(152, 238, 241, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/*pie pagina*/
+
+.pie-pagina .grupo2 {
+    background-color: #40679E;
+    color: #fff;
+    padding: 15px 10px;
+    text-align: center;
+}
