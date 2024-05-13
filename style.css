@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #2D9596;
+    background-color: #222d52;
     color: #F1FADA;
     padding: 20px;
     text-align: center;
@@ -20,7 +20,7 @@ header {
 
 /* estilos para el menu de navegacion */
 nav {
-    background-color: #9AD0C2;
+    background-color: #d2b68a;
     color: #F2ECBE;
     height: 70px;
     padding: 10px 0;
