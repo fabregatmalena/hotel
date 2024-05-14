@@ -147,6 +147,7 @@ section .description {
 #ubicacion h4 {
     border-bottom: 4px solid #d2b68a; 
     padding-bottom: 5px;
+    margin-top: 20px;
 }
 
 .ubicacion {
