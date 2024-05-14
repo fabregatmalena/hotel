@@ -51,13 +51,11 @@ nav li {
 /*CARRUSEL*/
 .carousel{
     margin: 50px;
- }
-
- .container-fluid {
     display: flex; 
     align-items: center;
     justify-content: center;
-}
+ }
+
 
 /* Paginas de Habitaciones - Fabian */
 
