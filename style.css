@@ -120,4 +120,15 @@ nav li {
     color: #fff;
 }
 
+.pie-pagina .grupo-1 .contacto {
+    background-color: #d2b68a;
+    text-align: left; 
+    color: #222d52;
+    padding: 10px 3;
+}
+
+.pie-pagina .grupo-1 .contacto h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
 
