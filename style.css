@@ -51,9 +51,7 @@ nav li {
 /*CARRUSEL*/
 .carousel{
     margin: 50px;
-    display: flex; 
-    align-items: center;
-    justify-content: center;
+
  }
 
 
