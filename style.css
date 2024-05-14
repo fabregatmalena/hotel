@@ -30,21 +30,29 @@ header {
 /* estilos para el menu de navegacion */
 nav {
     background-color: #d2b68a;
-    color: #F2ECBE;
-    height: 70px;
+    margin: 0;
     padding: 10px 0;
-    text-align: center;
 }
 
 nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
+    list-style-type: none;
+    margin: 0;
     padding: 10px;
+    text-align: center;
 }
 
-nav li {
-    margin: 0 15px;
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #222D52;
+    text-decoration: none;
+    padding: 20px 50px;
+}
+
+nav ul li a:hover {
+    background-color: #EEE5D9;
 }
 
 
@@ -82,21 +90,58 @@ section .description {
 }
 
 /*seccion habitaciones*/
- #habitaciones {
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 20px auto;
-    max-width: 600px;
-    overflow: hidden;
+#habitaciones {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #767faf;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .habitaciones-info {
+    width: 50%;
     padding: 20px;
-    position: relative;
-}
+  }
+  
+  .habitaciones-info h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
 
-.informacion {
-    background-color: rgba(152, 238, 241, 0.8);
-    border-radius: 10px;
-    padding: 20px;
+  .habitaciones-info h3 a {
+    text-decoration: none;
+    color:#EEE5D9;
+    font-size: 28px;
+    text-decoration: none;
+    margin-bottom: 15px;
+  }
+
+  .habitaciones-info h3 a:hover {
+    color: #d2b68a ;
 }
+  
+  .habitaciones-info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .habitaciones-img {
+    width: 50%;
+    object-fit: cover;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .habitaciones-info,
+    .habitaciones-img {
+      width: 100%;
+    }
+  }
 
 /*SECCION UBICACION*/
 #ubicacion h4 {
