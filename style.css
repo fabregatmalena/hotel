@@ -63,11 +63,61 @@ nav li {
     padding: 20px;
 }
 
-/*pie pagina*/
+/*FOOTER*/
+.pie-pagina{
 
-.pie-pagina .grupo2 {
-    background-color: #40679E;
-    color: #fff;
-    padding: 15px 10px;
-    text-align: center;
+    background-color: #d2b68a;
+    
 }
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:20px;
+    padding: 25px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .bloque h2{
+    color: #222d52;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.pie-pagina .grupo-1 .bloque p{
+    color: #222d52;
+    margin-bottom: 5px; 
+    font-size: 14px; 
+}
+
+.fa-brands{
+    border-radius: 100px;
+    color: #222d52;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 10px;
+    
+}
+
+.fa-brands:hover {
+    color: #F1FADA;
+}
+
+
+.pie-pagina .grupo-2{
+    background-color: #222d52;
+    padding: 10px ;
+    text-align: center;
+    color: #fff;
+}
+
+
