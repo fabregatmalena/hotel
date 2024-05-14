@@ -53,6 +53,14 @@ nav li {
     margin: 50px;
  }
 
+ .container-fluid {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    max-height: 1500px;
+    max-width: 1000px;
+}
+
 /* Paginas de Habitaciones - Fabian */
 
 section .description {
