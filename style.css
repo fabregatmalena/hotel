@@ -55,6 +55,30 @@ nav ul li a:hover {
     background-color: #EEE5D9;
 }
 
+/*antes del carrusel*/
+
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.img-container img {
+  width: 35%;
+  margin: 10px;
+  border: 2px solid #ddd; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+@media (max-width: 768px) {
+  .img-container img {
+    width: 100%;
+  }
+} 
+
+
+
 
 /*CARRUSEL*/
 .carousel{
