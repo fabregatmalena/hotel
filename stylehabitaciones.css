@@ -3,34 +3,48 @@ body {
     padding: 0;
     background-color: #e8e8e8;
 }
+header {
+    background-color: #222d52;
+    color: #F1FADA;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.title{
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+/* estilos para el menu de navegacion */
 nav {
     background-color: #d2b68a;
     margin: 0;
     padding: 10px 0;
 }
+
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 10px;
     text-align: center;
 }
+
 nav ul li {
     display: inline;
 }
+
 nav ul li a {
     color: #222D52;
     text-decoration: none;
     padding: 20px 50px;
 }
+
 nav ul li a:hover {
     background-color: #EEE5D9;
 }
-header {
-    background-color: #222D52;
-    color: #fdffff;
-    padding: 40px 0;
-    text-align: center;
-}
+
 #habitaciones {
     background-color: #EEE5D9;
     color: #222D52;
