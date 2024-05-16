@@ -28,6 +28,10 @@
 
         </ul>
     </nav>
+  <section>
+    <h5>¡Reserva fácilmente con un descuento del 10% sobre las tarifas de mostrador! </h5>
+  </section>
+ <section class="formulario">     
     <form>
         <fieldset>
             <legend>Detalles huesped</legend>
@@ -74,8 +78,24 @@
             </p>
         </fieldset>
         <fieldset>
+            <legend>Detalles de la Habitación</legend>
+            <p>Seleccione Habilación
+                   <select name="compra">
+                      <option>Habitación Doble: $25.000.-</option>
+                      <option>Habitación Con Dos Camas: $35.000.-</option>
+                      <option>Apartamento: $50.000.-</option>
+                   </select> </p> 
+            <p>Fecha de Entrada
+                   <input type="date" name="entrada">
+            </p>
+            <p>Cantidad de Noches
+                    <input type="number" name="noches">
+            </p>    
+        </fieldset>
+        <fieldset>
             <legend>Detalles de pago</legend>
-                <p>Tipo tarjeta de crédito</p>
+                     
+                <p>Tipo tarjeta de crédito
                 <input type="radio" id="Tarjeta1" name="tarjeta" value="visa">
                 <label for="Tarjeta1">Visa</label>
           
@@ -84,6 +104,7 @@
           
                 <input type="radio" id="Tarjeta3" name="tarjeta" value="maestro">
                 <label for="Tarjeta3">Maestro</label>
+            </p>
             <p>
                 <label for="nrotarj">Numero tarjeta de crédito</label>
                 <input type="tel" id="nrotarj" name="nrotarj">
@@ -129,7 +150,7 @@
             <input type="submit">
         </p>    
     </form>
-
+ </section>
     <footer class="pie-pagina">
         <div class="grupo-1">
 
