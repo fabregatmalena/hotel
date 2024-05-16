@@ -95,10 +95,10 @@ section .description {
 
 .services {
   display: grid;
-  margin: 50px;
+  margin: 20px;
   grid-template-columns: 33% 34% 33%;
   grid-template-rows: 120px 120px 120px;
-  gap: 3px;
+  gap: 2px;
 }
 
 /* Agregado por Fabian - Boton Reserva*/
