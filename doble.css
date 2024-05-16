@@ -126,6 +126,48 @@ nav ul li a:hover {
 }
 
 
+/*SERVICIOS*/
+
+.doble-servicios {
+    padding: 100px 0;
+}
+
+.doble-imagen {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.section-title {
+    color: #333;
+}
+
+
+.servicios-lista {
+    list-style: none;
+    padding: 0;
+}
+
+.servicios-lista li {
+    margin-bottom: 10px;
+}
+
+.servicios-lista li i {
+    color: #222D52; /* Color del icono */
+    margin-right: 5px;
+}
+
+
+.imagen2-container {
+    flex: 1;
+}
+
+.doble-imagen2 {
+    width: 100%; /* Ajustar la imagen al contenedor */
+    height: auto; /* Ajustar la altura automáticamente */
+}
+
+
 
 /*FOOTER*/
 .pie-pagina{
