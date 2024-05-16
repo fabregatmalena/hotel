@@ -79,12 +79,11 @@ nav ul li a:hover {
 
 /*Formulario*/
 .formulario {
-    border-radius: 100px;
     border: 15px rgb(1, 29, 1);
     background-color: bisque;
-    padding: 10px;
+    padding: 30px;
     margin: 100px;
-    margin-bottom: 50px;
+
    }
 
 h5 {
