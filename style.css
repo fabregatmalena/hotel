@@ -157,10 +157,10 @@ section .description {
 
 .services {
   display: grid;
-  margin: 20px;
+  margin: 100px;
   grid-template-columns: 33% 34% 33%;
   grid-template-rows: 120px 120px 120px;
-  gap: 2px;
+  gap: 10px;
 }
 
 /* Agregado por Fabian - Boton Reserva*/
