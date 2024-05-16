@@ -1,0 +1,211 @@
+
+
+/* Agregado por Fabian - Simbolos */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+} 
+
+
+
+/* Paginas de Habitaciones - Fabian */
+
+section .description {
+  margin: 120px
+}
+
+.services {
+  display: grid;
+  margin: 100px;
+  grid-template-columns: 33% 34% 33%;
+  grid-template-rows: 120px 120px 120px;
+  gap: 10px;
+}
+
+
+
+
+
+
+
+
+body {
+    background-color: #F2ECBE;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #222d52;
+    color: #F1FADA;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 3vw; /* Tamaño de fuente responsive */
+    margin: 0;
+    padding: 0;
+}
+
+/* estilos para el menu de navegacion */
+nav {
+    background-color: #d2b68a;
+    margin: 0;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #222D52;
+    text-decoration: none;
+    padding: 10px 2vw; /* Espacio de relleno responsive */
+}
+
+nav ul li a:hover {
+    background-color: #EEE5D9;
+}
+
+/* Media Query para ajustar estilos en pantallas más pequeñas */
+@media (max-width: 768px) {
+    .title {
+        font-size: 5vw; /* Cambio de tamaño de fuente para pantallas más pequeñas */
+    }
+}
+
+
+
+/* HABITACION*/
+
+.doble-section {
+    padding: 100px 0;
+}
+
+.doble-imagen {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.section-title {
+    color: #333;
+}
+
+
+.caracteristicas-lista {
+    list-style: none;
+    padding: 0;
+}
+
+.caracteristicas-lista li {
+    margin-bottom: 10px;
+}
+
+.caracteristicas-lista li i {
+    color: #222D52; /* Color del icono */
+    margin-right: 5px;
+}
+
+.btn.btn-primary {
+    background-color: #222D52; /* color de fondo del botón */
+    border-color: #222d52; /* color del borde del botón */
+    color: #ffffff; /* color del texto del botón */
+}
+
+
+
+/*FOOTER*/
+.pie-pagina{
+
+    background-color: #d2b68a;
+    
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:20px;
+    padding: 25px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .bloque h2{
+    color: #222d52;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.pie-pagina .grupo-1 .bloque p{
+    color: #222d52;
+    margin-bottom: 5px; 
+    font-size: 14px; 
+}
+
+.fa-brands{
+    border-radius: 100px;
+    color: #222d52;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 10px;
+    
+}
+
+.fa-brands:hover {
+    color: #F1FADA;
+}
+
+
+.pie-pagina .grupo-2{
+    background-color: #222d52;
+    padding: 10px ;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo-1 .contacto {
+    background-color: #d2b68a;
+    text-align: left; 
+    color: #222d52;
+    padding: 10px 3;
+}
+
+.pie-pagina .grupo-1 .contacto h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .pie-pagina .grupo-1 {
+        grid-template-columns: 1fr; /* Cambia a una sola columna en pantallas más pequeñas */
+    }
+    
+    .fa-brands {
+        font-size: 24px; /* Reduce el tamaño de los íconos de redes sociales en pantallas más pequeñas */
+    }
+    
+    .pie-pagina .grupo-1 .contacto {
+        text-align: center; /* Centra el contenido de contacto en pantallas más pequeñas */
+    }
+}
