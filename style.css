@@ -62,14 +62,12 @@ nav ul li a:hover {
 }
 
 
-/*PARTE SUPERIOR*/
-
 #hotel {
     padding: 20px;
     background-color: #222D52;
   }
   
-   .hotel-info p{
+  .hotel-info p{
     text-align: center;
     align-items: center;
     color: #d2b68a;
@@ -251,20 +249,26 @@ section .description {
 
 /*SECCION UBICACION*/
 #ubicacion h4 {
-    border-bottom: 4px solid #d2b68a; 
+    border-bottom: 4px solid #d2b68a;
     padding-bottom: 5px;
     margin-top: 20px;
 }
 
 .ubicacion {
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.ubicacion iframe {
-    margin-bottom: 20px; /* espacio entre el mapa y el footer */
+.mapa-container {
+    width: 100%;
+    margin-bottom: 20px; /* Espacio entre el mapa y el footer */
 }
+
+@media screen and (max-width: 768px) {
+    /* Aquí puedes agregar estilos específicos para pantallas más pequeñas */
+}
+
 
 /*FOOTER*/
 .pie-pagina{
@@ -335,3 +339,16 @@ section .description {
     margin-bottom: 15px;
 }
 
+@media screen and (max-width: 768px) {
+    .pie-pagina .grupo-1 {
+        grid-template-columns: 1fr; /* Cambia a una sola columna en pantallas más pequeñas */
+    }
+    
+    .fa-brands {
+        font-size: 24px; /* Reduce el tamaño de los íconos de redes sociales en pantallas más pequeñas */
+    }
+    
+    .pie-pagina .grupo-1 .contacto {
+        text-align: center; /* Centra el contenido de contacto en pantallas más pequeñas */
+    }
+}
