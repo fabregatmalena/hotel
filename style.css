@@ -242,17 +242,24 @@ section .description {
     }
   }
 
+
 /*SECCION UBICACION*/
 #ubicacion h4 {
     border-bottom: 4px solid #d2b68a;
     padding-bottom: 5px;
     margin-top: 20px;
+    color: #d2b68a;
+}
+
+.ubicacion p{
+    color: #d2b68a;
 }
 
 .ubicacion {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #222D52;
 }
 
 .mapa-container {
