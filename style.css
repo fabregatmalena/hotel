@@ -104,6 +104,7 @@ section .description {
 /* Agregado por Fabian - Boton Reserva*/
 .reserva {
     text-align: center;
+    border-radius: 100px;
     height: 60px;
     width: 400px;
     border: 15px rgb(1, 29, 1);
