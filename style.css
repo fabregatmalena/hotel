@@ -242,7 +242,11 @@ section .description {
     }
   }
 
-
+.btn.btn-primary {
+    background-color: #222D52; /* color de fondo del botón */
+    border-color: #222d52; /* color del borde del botón */
+    color: #ffffff; /* color del texto del botón */
+} 
 /*SECCION UBICACION*/
 #ubicacion h4 {
     border-bottom: 4px solid #d2b68a;
