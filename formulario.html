@@ -107,7 +107,7 @@
             </p>
             <p>
                 <label for="nrotarj">Numero tarjeta de crédito</label>
-                <input type="tel" id="nrotarj" name="nrotarj">
+                <input type="number" id="nrotarj" name="nrotarj" min="1111111111111111" max="9999999999999999">
             </p>
             <p>Fecha de caducidad
                 <select name="mes" id="mes">
@@ -139,11 +139,11 @@
             </p>
             <p>            
                 <label for="titular">Titular tarjeta de crédito</label>
-                <input type="text" id="titular" name="titular">
+                <input type="text" id="titular" name="titular" required>
             </p>
             <p>
                 <label for="codigo">Código Seguridad Tarjeta de crédito</label>
-                <input type="tel" id="codigo" name="codigo">
+                <input type="number" id="codigo" name="codigo" min="000" max="999">
             </p>
         </fieldset>
         <p>
