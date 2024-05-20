@@ -3,7 +3,7 @@ document.getElementById('formulariojs').addEventListener('submit', function(even
     
     // Evita el envío del formulario
 
-    let errors = 0
+    let errors
     let nombre = document.getElementById('nombre').value;
     let apellido = document.getElementById('apellido').value;
     let dni = document.getElementById('dni').value;
