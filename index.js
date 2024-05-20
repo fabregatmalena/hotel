@@ -3,7 +3,7 @@ document.getElementById('formulariojs').addEventListener('submit', function(even
     
     // Evita el envío del formulario
 
-    let errors 
+    let errors = 0
     let nombre = document.getElementById('nombre').value;
     let apellido = document.getElementById('apellido').value;
     let dni = document.getElementById('dni').value;
@@ -75,7 +75,7 @@ document.getElementById('formulariojs').addEventListener('submit', function(even
     }
 
     if (errors.length > 0) {
-        document.getElementById('errorMessages').innerHTML = errors.join('<br>');
+        document.getElementById('errorMessages').innerHTML = 'Complete todos los campos requeridos en rojo');
     } 
     else {
         document.getElementById('errorMessages').innerHTML = "Formulario enviado con éxito!";
