@@ -26,11 +26,6 @@ header {
     padding: 0;
 }
 
-h5 {
-    margin: 10px;
-    text-align: center;
-}
-
 /* estilos para el menu de navegacion */
 nav {
     background-color: #d2b68a;
@@ -165,15 +160,6 @@ main {
 .habitacion img:hover {
     box-shadow: 0 0 20px rgba(0,0,0,0.5)
 }  
-
-.muestra {
-    display: inline-flex
-    width: 300px;         /* Ancho fijo para cada habitación */
-    margin: 10px;         /* Espacio alrededor de cada habitación */
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra opcional para un mejor diseño */
-    text-align: center;
-    padding: 15px;
-}
 
 /* Paginas de Habitaciones - Fabian */
 
