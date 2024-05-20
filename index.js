@@ -74,7 +74,7 @@ document.getElementById('formulariojs').addEventListener('submit', function(even
         document.getElementById('errorMessages').innerHTML = errors.join('<br>');
     } else {
         document.getElementById('errorMessages').innerHTML = "Formulario enviado con éxito!";
-        // Aquí puedes proceder a enviar el formulario
+        // 
         // this.submit();
     }
 });
