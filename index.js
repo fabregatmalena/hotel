@@ -3,7 +3,7 @@ document.getElementById('formulariojs').addEventListener('submit', function(even
     
     // Evita el envío del formulario
 
-    let errors = [];
+    let errors = "Complete todos los datos obligatorios";
     let nombre = document.getElementById('nombre').value;
     let apellido = document.getElementById('apellido').value;
     let dni = document.getElementById('dni').value;
@@ -54,6 +54,10 @@ document.getElementById('formulariojs').addEventListener('submit', function(even
         errors.push("El email es obligatorio");
     }
 
+  else if (!/\S+@\S+\.\S+/.test(email)) {
+        errors.push("El email no es válido");
+    }
+
   if (noches === '') {
         errors.push("La cantidad de noches es obligatorio");
     }
@@ -69,13 +73,9 @@ document.getElementById('formulariojs').addEventListener('submit', function(even
        errors.push("El codigo de seguridad de la tarjeta es obligatorio");
     
     } 
-    
-    else if (!/\S+@\S+\.\S+/.test(email)) {
-        errors.push("El email no es válido");
-    }
 
     if (errors.length > 0) {
-        document.getElementById('errorMessages').innerHTML = "Complete todos los campos requeridos en rojo";
+        document.getElementById('errorMessages').innerHTML = errors;
     } 
     else {
         document.getElementById('errorMessages').innerHTML = "Formulario enviado con éxito!";
