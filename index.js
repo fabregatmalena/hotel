@@ -62,11 +62,13 @@ document.getElementById('formulariojs').addEventListener('submit', function(even
 
     if (titular === '') {
         errors.push("El nombre del titular es obligatorio");
-
+    }
     if (codigo === '') {
        errors.push("El codigo de seguridad de la tarjeta es obligatorio");
-      
-    } else if (!/\S+@\S+\.\S+/.test(email)) {
+    
+    } 
+    
+    else if (!/\S+@\S+\.\S+/.test(email)) {
         errors.push("El email no es válido");
     }
 
