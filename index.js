@@ -75,7 +75,7 @@ document.getElementById('formulariojs').addEventListener('submit', function(even
     }
 
     if (errors.length > 0) {
-        document.getElementById('errorMessages').innerHTML = 'Complete todos los campos requeridos en rojo');
+        document.getElementById('errorMessages').innerHTML = "Complete todos los campos requeridos en rojo";
     } 
     else {
         document.getElementById('errorMessages').innerHTML = "Formulario enviado con éxito!";
