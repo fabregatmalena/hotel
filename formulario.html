@@ -32,7 +32,7 @@
         <h5>¡Reserva fácilmente con un descuento del 10% sobre las tarifas de mostrador! </h5>
  </div>
    <div class="formulario">     
-    <form>
+    <form id="formulariojs">
         <fieldset>
             <legend>Detalles huesped</legend>
             <p>            
@@ -86,10 +86,10 @@
                       <option>Apartamento: $50.000.-</option>
                    </select> </p> 
             <p>Fecha de Entrada
-                   <input type="date" name="entrada" required>
+                   <input type="date" id="entrada" name="entrada" required>
             </p>
             <p>Cantidad de Noches
-                    <input type="number" name="noches" required>
+                    <input type="number" id="noches" name="noches" required>
             </p>    
         </fieldset>
         <fieldset>
@@ -150,6 +150,9 @@
             <input type="submit">
         </p>    
     </form>
+       
+<div id="errorMessages"></div>
+       
  </div>
     <footer class="pie-pagina">
         <div class="grupo-1">
