@@ -1,5 +1,7 @@
 document.getElementById('formulariojs').addEventListener('submit', function(event) {
-    event.preventDefault(); // Evita el envío del formulario
+    event.preventDefault(); 
+    
+    // Evita el envío del formulario
 
     let errors = [];
     let nombre = document.getElementById('nombre').value;
@@ -74,9 +76,8 @@ document.getElementById('formulariojs').addEventListener('submit', function(even
 
     if (errors.length > 0) {
         document.getElementById('errorMessages').innerHTML = errors.join('<br>');
-    } else {
+    } 
+    else {
         document.getElementById('errorMessages').innerHTML = "Formulario enviado con éxito!";
-        // 
-        // this.submit();
     }
 });
