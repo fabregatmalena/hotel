@@ -26,6 +26,11 @@ header {
     padding: 0;
 }
 
+h5 {
+    margin: 10px;
+    text-align: center;
+}
+
 /* estilos para el menu de navegacion */
 nav {
     background-color: #d2b68a;
