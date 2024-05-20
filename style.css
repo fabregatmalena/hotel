@@ -161,6 +161,15 @@ main {
     box-shadow: 0 0 20px rgba(0,0,0,0.5)
 }  
 
+.carousel-inner img {
+    width: 100%;
+    max-height: 460px;
+}
+
+.carousel-inner{
+ height: 200px;
+}
+
 /* Paginas de Habitaciones - Fabian */
 
 section .description {
