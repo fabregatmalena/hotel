@@ -4,7 +4,7 @@ body {
     font-size: 100%;
     color: #1b262c;
     margin: 0;
-    background-color: #F2ECBE;
+    background-color: #FEFEFE;
 }
 
 #contenedor {
@@ -31,8 +31,9 @@ body {
 
 #login {
     width: 100%;
-    padding: 50px 30px;
-    background-color: #d2b68a;
+    margin-top: 100px
+    padding: 30px 30px;
+    background-color: #F2ECBE;
     border-radius: 3px 3px 3px 3px;    
 }
 
