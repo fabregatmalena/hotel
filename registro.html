@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/785cd5c5a4.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    
+    <title>Registro</title>
+</head>
+
+ 
+
+<body>
+    
+    <header>
+
+    <h1>HOTEL CODO A CODO</h1>
+
+    </header>
+
+    <nav>
+        <ul>
+            <li class="seccion"><a href="./index.html">INICIO</a></li>
+            <li class="seccion"><a href="./habitaciones.html">HABITACIONES</a></li>
+            <li class="seccion"><a href="./formulario.html">RESERVA</a></li>
+
+        </ul>
+    </nav>
+
+ <div class="titulos">
+        <h5>Registrate y reserva tu habitación</h5><p></p>
+        <h5>¿Ya estas registrado?</h5><h5><a href=".login.html">Ingresa con tu clave</a></h5>
+ </div>
+
+   <div class="formulario"> 
+    <form id="loginform" onsubmit="return validarFormulario()">
+        <fieldset>
+            <legend>Datos de Registración</legend>
+            <p>            
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" >
+            </p>
+            <p>
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="apellido" placeholder="Apellido" >
+            </p>
+            <p>
+                <label for="dni">DNI</label>
+                <input type="number" id="dni" name="dni" placeholder="DNI" min="1000000" max="45000000" >
+            </p>
+            </p>
+            <p>
+                <label for="tel">Telefono</label>
+                <input type="tel" id="tel" name="tel" placeholder="Teléfono" maxlength="10" >
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </p>
+            <p>¿Cómo nos conociste?
+                <select name="encuesta">
+                   <option>Internet</option>
+                   <option>Ya nos visitaste</option>
+                   <option>Amigos o Conocidos</option>
+                   <option>Otros</option>
+                </select> </p> 
+            <p>¿Quieres Recibir Información y Ofertas en tu correo? 
+                <input type="radio" id="opcionSi" name="opcion" value="SI">
+                <label for="opcionSi">SI</label>
+          
+                <input type="radio" id="opcionNo" name="opcion" value="NO">
+                <label for="opcionNo">NO</label>
+            </p>
+            <p>
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" placeholder="Contraseña" required>
+            </p>
+
+        </fieldset>
+        <p>
+            <input type="submit">
+        </p>    
+    </form>
+       
+ </div>
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+
+            <div class="bloque">
+                <h2>SOBRE NOSOTROS</h2>
+                <p> Nuestro hotel te ofrece una experiencia única donde la comodidad y la hospitalidad se fusionan.</p>
+
+                <p>Con un equipo dedicado y una atención personalizada, nos esforzamos por hacer que cada momento de tu
+                estadía sea inolvidable.</p>
+            </div>
+            <div class="bloque">
+                <h2>SEGUINOS EN NUESTRAS REDES</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                     <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+
+                </div>
+            </div>
+
+            <div class="contacto">
+                <h2>CONTACTO</h2>
+                <p>011-5555-1234</p>
+                <p>011-4444-5678</p>
+
+                <h2>CORREO ELECTRONICO</h2>
+                <p>infoelhotel@gmail.com</p>
+            </div>
+        </div>
+        <div class="grupo-2">
+           <small>&copy;   COPYRIGHT  2024 - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+
+    
+    
+</body>
+</html>
