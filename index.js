@@ -11,8 +11,9 @@ function validarLogin() {
     }
 
     // Si la validación es exitosa, redireccionar al formulario de reserva
+    alert("Acceso Válido");
     window.location.href = 'formulario.html';
-    return true;
+    return false;
 
 }
 
