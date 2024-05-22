@@ -2,31 +2,32 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0;
-    padding: 0;
     width: 100%;
-    height: 100%;
-    border: solid;
+    background: #222d52;
+    
 }
 
 #central {
-    max-width: 320px;
     width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 .titulo {
     font-size: 250%;
-    color:#1b262c;
+    color:#222d52;
     text-align: center;
     margin-bottom: 20px;
 }
 
 #login {
     width: 100%;
-    margin-top: 100px;
-    padding: 30px 30px;
-    background-color: #F2ECBE;
-    border-radius: 3px 3px 3px 3px;    
+    padding: 50px;
+    background-color: #eee5d9;
+    box-shadow: 0 0 5px #e8e8e8;
+    border-radius: 10px;    
 }
 
 #login input {
@@ -36,9 +37,9 @@
     width: 100%;
     height: 40px;
     margin-bottom: 10px;
-    padding: 5px 5px 5px 5px;
+    padding: 5px;
     border: none;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 5px;
 
 }
 
@@ -54,13 +55,13 @@
     height: 40px;
     border: none;
     border-radius: 3px 3px 3px 3px;
-    background-color: #4f80a0;
+    background-color: #d2b68a;
     margin-top: 10px;
 }
 
 #login button:hover {
-    background-color: #0f4c75;
-    color:#bbe1fa44;
+    background-color: #d2b68a81;
+    color:#222d5256;
 }
 
 .pie-form {
