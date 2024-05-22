@@ -94,29 +94,61 @@ nav ul li a:hover {
   }
 
  
-
 /*Formulario*/
-.formulario {
-    border: 15px rgb(1, 29, 1);
-    background-color: bisque;
-    padding: 30px;
-    margin: 100px;
-
-   }
 
 .titulos {
     margin: 30px;
     text-align: center;
-   }   
+}   
 
+/* Estilos generales para el formulario */
+form {
+    max-width: 800px; /* Ancho máximo del formulario */
+    margin: 20px auto; /* Centrar el formulario en la página */
+    padding: 20px;
+    border: 1px solid #d2b68a;
+    border-radius: 10px;
+    background-color: #EEE5D9;
+}
+  
+  /* Estilos específicos para los fieldset */
+.informacion {
+    margin-bottom: 20px;
+    border: 1px solid #d2b68a; /* Cambiamos el color del borde a un tono más oscuro */
+    border-radius: 10px;
+    padding: 20px; /* Agregamos un margen interior para separar el contenido del borde */
+}
+  
+legend {
+font-weight: bold;
+}
+    
+/* Estilos para etiquetas y campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 50%;
+    border: 1px solid #d2b68a;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+    
+input[type="submit"] {
+    width: 100%; /* Botón de enviar ocupa todo el ancho disponible */
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    border: none;
+    border-radius: 3px;
+    background-color: #d2b68a;
+    color: #222D52;
+}
+input[type="submit"]:hover {
+    background-color: #d2b68a81;
+    color:#222d5256;
+  
+}
 /* Pagina general de Habitaciones */
 
-#habitaciones {
-    background-color: #EEE5D9;
-    color: #222D52;
-    padding: 10px;
-    text-align: left;
-}
 main {
     max-width: 1050px;
     margin: 20px auto;
@@ -139,23 +171,23 @@ p {
     font-size: 16px;
 }
 main {
-    display: flex;        /* Establece el contenedor como Flex */
-    justify-content: space-around; /* Distribuye el espacio alrededor de los elementos internos */
-    align-items: flex-start; /* Alinea los elementos al comienzo del contenedor flex */
-    flex-wrap: wrap;      /* Permite que los elementos se envuelvan en múltiples líneas si no hay espacio suficiente */
+    display: flex;        
+    justify-content: space-around;
+    align-items: flex-start; 
+    flex-wrap: wrap;  
 }
 
 .habitacion {
-    width: 300px;         /* Ancho fijo para cada habitación */
-    margin: 10px;         /* Espacio alrededor de cada habitación */
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra opcional para un mejor diseño */
+    width: 300px;         
+    margin: 10px;         
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
     text-align: center;
     padding: 15px;
 }
 
 .habitacion img {
-    width: 100%;          /* Hace que la imagen llene el ancho del contenedor .habitacion */
-    height: auto;         /* Mantiene la proporción de la imagen */
+    width: 100%;          
+    height: auto;        
 }
 .habitacion img:hover {
     box-shadow: 0 0 20px rgba(0,0,0,0.5)
