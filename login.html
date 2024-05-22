@@ -38,7 +38,7 @@
                     <div class="titulo">
                         Bienvenido
                     </div>
-                    <form id="loginform">
+                    <form id="loginform" onsubmit="return validarLogin()">
                         <input type="text" name="usuario" placeholder="Email" required>
                         
                         <input type="password" placeholder="Contraseña" name="password" required>
