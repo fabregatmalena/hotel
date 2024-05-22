@@ -1,4 +1,3 @@
-
 function validarFormulario() { 
     // Traigo los datos del form
     var nombre = document.getElementById("nombre").value;
@@ -7,18 +6,20 @@ function validarFormulario() {
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
 
-    // Verifico que los campos no estén vacíos    
+    // Verificacion de que los campos no estén vacíos    
+    
     if (nombre == "" || apellido == "" || dni == "" || email == "" || password == "" ) {
         alert("Por favor complete todos los campos");
         return false;
-    } 
+    }
 
-    else {
-        alert("Usuario Registrado");
-        location=".formulario.html";
-            
-    }
-    }
+    // Si la validación es exitosa, redireccionar al formulario de reserva
+    alert("Usuario registrado")
+    window.location.href = 'formulario.html';
+    return false;
+
+}
+
 
 
 
