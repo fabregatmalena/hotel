@@ -1,3 +1,22 @@
+function validarLogin() { 
+    // Traigo los datos del form
+    var usuario = document.getElementById("usuario").value;
+    var password = document.getElementById("password").value;
+
+    // Verificacion de que los campos no estén vacíos    
+    
+    if (usuario == "" || password == "" ) {
+        alert("Por favor complete todos los campos");
+        return false;
+    }
+
+    // Si la validación es exitosa, redireccionar al formulario de reserva
+    window.location.href = 'formulario.html';
+    return true;
+
+}
+
+
 function validarFormulario() { 
     // Traigo los datos del form
     var nombre = document.getElementById("nombre").value;
